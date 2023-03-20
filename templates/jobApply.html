@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <title>{{job[0][1]}}</title>
+    {% include 'Bootstrap.html' %}
+  </head>
+  <body>
+    <div class = container>
+      {% include "Banner.html" %}
+      <p>{{job[0][5]}}</p>
+      <p>{{job[0][6]}}</p>
+      <div class="row">
+        <div class="col">
+          <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+        </div>
+        <div class="col">
+          <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+        </div>
+      </div>
+    </div>
+    
+  </body>
+</html>
